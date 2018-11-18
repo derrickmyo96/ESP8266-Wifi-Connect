@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid="wanchun";
-const char* password="shahm59474";
+const char* ssid="Your SSID/Network Name";
+const char* password="Your Network password";
 
 int ledPin = 13;
 
@@ -30,7 +30,7 @@ void setup() {
 
   Serial.println("Wifi Connected Successfully!");
   Serial.print("NODEMCU IP address: ");
-  Serial.println(WiFi.localIP());
+  Serial.println(WiFi.localIP());                           
 
 }
 
